@@ -1,0 +1,29 @@
+@import './variables';
+
+.eye-group {
+  position: absolute;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: $black;
+  border-radius: 5rem / 2.5rem;
+  transform: rotate(90deg);
+  top: 30%;
+}
+
+.left-eye {
+  left: 30%;
+}
+
+.right-eye {
+  right: 30%;
+}
+
+.pupil {
+  position: absolute;
+  width: 2rem;
+  height: 1rem;
+  background-color: $head-color;
+  border-radius: 2rem /1rem;
+  top: 40%;
+  left: 20%;
+}

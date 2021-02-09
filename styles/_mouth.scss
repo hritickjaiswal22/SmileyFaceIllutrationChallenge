@@ -1,0 +1,25 @@
+@import './variables';
+
+.mouth {
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
+  background-color: $black;
+  border-radius: 1rem 1rem 15rem 15rem;
+  overflow: hidden;
+  border: 0.5rem solid $black;
+}
+
+.tongue {
+  position: absolute;
+  width: 10rem;
+  height: 8rem;
+  background-color: $tongue-color;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}

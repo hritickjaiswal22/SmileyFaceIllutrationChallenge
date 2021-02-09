@@ -1,0 +1,78 @@
+.head {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-color: #fbd671;
+  position: relative;
+  box-shadow: inset -10px -10px 0px #efbb42;
+}
+
+.eye-group {
+  position: absolute;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #20184e;
+  border-radius: 5rem/2.5rem;
+  transform: rotate(90deg);
+  top: 30%;
+}
+
+.left-eye {
+  left: 30%;
+}
+
+.right-eye {
+  right: 30%;
+}
+
+.pupil {
+  position: absolute;
+  width: 2rem;
+  height: 1rem;
+  background-color: #fbd671;
+  border-radius: 2rem/1rem;
+  top: 40%;
+  left: 20%;
+}
+
+.mouth {
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
+  background-color: #20184e;
+  border-radius: 1rem 1rem 15rem 15rem;
+  overflow: hidden;
+  border: 0.5rem solid #20184e;
+}
+
+.tongue {
+  position: absolute;
+  width: 10rem;
+  height: 8rem;
+  background-color: #f15962;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.SmileyFaceIllustartion {
+  height: 72rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #feee9d;
+}/*# sourceMappingURL=styles.css.map */

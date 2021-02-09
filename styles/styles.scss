@@ -1,0 +1,22 @@
+@import './variables';
+@import './head';
+@import './eyes';
+@import './mouth';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.SmileyFaceIllustartion {
+  height: 72rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+}
